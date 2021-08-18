@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.concurrent.Semaphore;
 
 public class ThreadOutputInputProductList implements Runnable {
-    private Warehouse warehouse;
+    private Warehouse warehouse;f
     private boolean output = true;
     private File file;
     private static final Semaphore SEMAPHORE = new Semaphore(1, true);
