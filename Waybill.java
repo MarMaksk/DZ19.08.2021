@@ -1,6 +1,6 @@
-package com.company;
+package com.DZ.company;
 
-import com.company.Production.Product;
+import com.DZ.company.Production.Product;
 
 import java.io.Serializable;
 import java.text.ParseException;

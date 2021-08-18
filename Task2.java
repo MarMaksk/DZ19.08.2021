@@ -1,9 +1,9 @@
-package com.company;
+package com.DZ.company;
 
-import com.company.Production.Product;
-import com.company.Production.ProductTree;
-import com.company.Service.ServiceCreateOutDoc;
-import com.company.Service.ServiceManager;
+import com.DZ.company.Production.Product;
+import com.DZ.company.Production.ProductTree;
+import com.DZ.company.Service.ServiceCreateOutDoc;
+import com.DZ.company.Service.ServiceManager;
 
 public class Task2 {
     public static void main(String[] args) {

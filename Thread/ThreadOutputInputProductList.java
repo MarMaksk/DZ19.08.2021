@@ -1,7 +1,7 @@
-package com.company.Thread;
+package com.DZ.company.Thread;
 
-import com.company.Production.Product;
-import com.company.Warehouse;
+import com.DZ.company.Production.Product;
+import com.DZ.company.Warehouse;
 
 import java.io.*;
 import java.util.ArrayList;

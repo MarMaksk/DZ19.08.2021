@@ -1,6 +1,6 @@
-package com.company.Thread;
+package com.DZ.company.Thread;
 
-import com.company.Warehouse;
+import com.DZ.company.Warehouse;
 
 import java.io.File;
 import java.util.concurrent.Semaphore;

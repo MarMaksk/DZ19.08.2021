@@ -1,8 +1,8 @@
-package com.company.Service;
+package com.DZ.company.Service;
 
-import com.company.Thread.ThreadOutputInputProductList;
-import com.company.Thread.ThreadOutputInputWaybillList;
-import com.company.Warehouse;
+import com.DZ.company.Thread.ThreadOutputInputProductList;
+import com.DZ.company.Thread.ThreadOutputInputWaybillList;
+import com.DZ.company.Warehouse;
 
 import java.io.*;
 
@@ -14,12 +14,12 @@ public class ServiceCreateOutDoc implements Serializable {
 
     public void createDocAboutWarehouse(Warehouse warehouse) {
         new Thread(new ThreadOutputInputProductList(warehouse, true)).start();
-      //  new Thread(new ThreadOutputInputWaybillList(warehouse, true)).start();
+        //  new Thread(new ThreadOutputInputWaybillList(warehouse, true)).start();
     }
 
     public void showDoc(Warehouse warehouse) {
         new Thread(new ThreadOutputInputProductList(warehouse, false)).start();
-      //  new Thread(new ThreadOutputInputWaybillList(warehouse, false)).start();
+        //  new Thread(new ThreadOutputInputWaybillList(warehouse, false)).start();
     }
 
     public String WarehouseToTheArchive(Warehouse warehouse) {

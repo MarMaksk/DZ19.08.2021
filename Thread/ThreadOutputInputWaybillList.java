@@ -1,7 +1,7 @@
-package com.company.Thread;
+package com.DZ.company.Thread;
 
-import com.company.Warehouse;
-import com.company.Waybill;
+import com.DZ.company.Warehouse;
+import com.DZ.company.Waybill;
 
 import java.io.*;
 import java.util.LinkedList;

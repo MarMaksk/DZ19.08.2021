@@ -1,10 +1,10 @@
-package com.company.Service;
+package com.DZ.company.Service;
 
-import com.company.Production.Product;
-import com.company.Production.ProductTree;
-import com.company.Production.nullProduct;
-import com.company.Warehouse;
-import com.company.Waybill;
+import com.DZ.company.Production.Product;
+import com.DZ.company.Production.ProductTree;
+import com.DZ.company.Production.nullProduct;
+import com.DZ.company.Warehouse;
+import com.DZ.company.Waybill;
 
 import java.io.*;
 import java.util.*;

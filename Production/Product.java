@@ -1,4 +1,4 @@
-package com.company.Production;
+package com.DZ.company.Production;
 
 public class Product implements ProductTree {
     private int id;
